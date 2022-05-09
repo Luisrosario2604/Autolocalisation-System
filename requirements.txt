@@ -1,0 +1,4 @@
+apriltag==0.0.16
+matplotlib==3.3.4
+numpy==1.21.3
+opencv_python==4.5.5.64
