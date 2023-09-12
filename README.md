@@ -19,21 +19,20 @@ You can find more information about my project here : [My website](https://poube
 
 ## Requirements
 
-* Python 3.7+
+* Python 3.9+
 * [AprilTag](https://april.eecs.umich.edu/software/apriltag)
 * [Chessboard](https://docs.opencv.org/4.x/da/d0d/tutorial_camera_calibration_pattern.html)
 
 
-* numpy == 1.21.3
-* opencv_python == 4.5.5.64
-* apriltag == 0.0.16
-* matplotlib == 3.3.4
-
+* numpy ~= 1.21.3
+* opencv_python ~= 4.5.5.64
+* apriltag ~= 0.0.16
+* matplotlib ~= 3.3.4
 
 How to install all the requirements :
 
 ```bash
-$ pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Usage
@@ -43,13 +42,13 @@ Execute only from project directory
 Use it with an ip camera :
 
 ```bash
-$ python src/autolocationSystem.py -p -u=<IP>
+python src/autolocationSystem.py -p -u=<IP>
 ```
 
 Use it with a webcam :
 
 ```bash
-$ python src/autolocationSystem.py -w
+python src/autolocationSystem.py -w
 ```
 
 ## Project details
